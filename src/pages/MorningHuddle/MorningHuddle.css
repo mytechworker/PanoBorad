@@ -1,0 +1,37 @@
+ .ant-drawer-body{
+    padding: 0 !important;
+}
+ .ant-drawer-header {
+    background-color: #007eff !important;
+    color: #fff !important;
+    border-bottom: none !important;
+}
+ .ant-drawer-title {
+    color: #fff !important; 
+    font-weight: 600 !important;
+}
+ .ant-drawer-close {
+    color: #fff !important;
+}
+@media screen and (max-width: 1281px) {
+    .table-drawer .ant-drawer-content-wrapper {
+        width: 100% !important;
+    }
+}
+@media screen and (max-width: 767px) {
+    .table-drawer .ant-drawer-content-wrapper {
+        width: 100% !important;
+    }
+    .table-drawer .ant-table-body {
+        max-height: 400px !important;
+    }
+    .table-drawer table {
+       width: max-content !important;
+    }
+}
+@media screen and (max-width: 480px) {
+    .morning_huddle_drawer .ant-drawer-content-wrapper, .morning_huddle_inner_drawer .ant-drawer-content-wrapper {
+        width: 100% !important;
+    }
+    
+}
